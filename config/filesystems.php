@@ -29,6 +29,10 @@ return [
     */
 
     'disks' => [
+        'images' => [
+            'driver' => 'local',
+            'root' => 'public/uploads/activityImages',
+        ],
 
         'local' => [
             'driver' => 'local',
